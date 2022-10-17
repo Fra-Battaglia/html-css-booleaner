@@ -42,3 +42,19 @@ main{
 .list-block ul{
 	padding-left: 10px;
 }
+.background-light-blue{
+	background-color: #B1E5F2;
+}
+thead.background-blue{
+	background-color: #20A9E5;
+	color: white;
+}
+table{
+	border-collapse: collapse;
+}
+.width25{
+	width: 25%;
+}
+.width50{
+	width: 50%;
+}
