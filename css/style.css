@@ -1,16 +1,35 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-header{
+.text-big{
+	font-size: 40px;
+}
+.text-small{
+	font-size: 12px;
+}
+header {
 	height: 150px;
 	background: #4EA0FF url(../img/pattern.png) repeat-x;
 	position: relative;
 }
-header img{
+header img {
 	height: 80px;
 	position: absolute;
 	bottom: 20px;
 	left: 10px;
+}
+main{
+	margin: 10px;
+}
+.headline {
+	margin: 10px 0;
+}
+.article-info{
+	color: #808080;
+}
+.article-info a {
+	color: #20A9E5;
+	text-decoration: none;
 }
