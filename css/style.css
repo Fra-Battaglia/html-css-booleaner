@@ -9,6 +9,9 @@
 .text-small{
 	font-size: 12px;
 }
+.space{
+	margin: 10px 0;
+}
 header {
 	height: 150px;
 	background: #4EA0FF url(../img/pattern.png) repeat-x;
@@ -18,13 +21,10 @@ header img {
 	height: 80px;
 	position: absolute;
 	bottom: 20px;
-	left: 6px;
+	left: 10px;
 }
 main{
-	margin: 6px;
-}
-.headline {
-	margin: 10px 0;
+	margin: 10px;
 }
 .article-info{
 	color: #808080;
@@ -35,4 +35,7 @@ main{
 }
 .photos ol li{
 	list-style: none;
+}
+.yellow-highlight{
+	background-color: yellow;
 }
