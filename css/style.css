@@ -1,3 +1,5 @@
+/* Helpers */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -12,6 +14,15 @@
 .space{
 	margin: 20px 0;
 }
+.color-gray {
+	color: #808080;
+}
+.background-light-blue {
+	background-color: #B1E5F2;
+}
+
+/* Header */
+
 header {
 	height: 150px;
 	background: #4EA0FF url(../img/pattern.png) repeat-x;
@@ -23,45 +34,48 @@ header img {
 	bottom: 20px;
 	left: 10px;
 }
-main, footer{
+
+/* Main/Content*/
+
+main, footer {
 	margin: 10px;
 }
 .article-info a {
 	color: #20A9E5;
 	text-decoration: none;
 }
-.photos ol li{
+.photos ol li {
 	list-style: none;
 }
-.yellow-highlight{
+.yellow-highlight {
 	background-color: yellow;
 }
-.list-block ul{
+.list-block ul {
 	padding-left: 10px;
 }
-.background-light-blue{
-	background-color: #B1E5F2;
+
+/* Table */
+
+table {
+	border-collapse: collapse;
 }
-thead.background-blue{
+thead.background-blue {
 	background-color: #20A9E5;
 	color: white;
 }
-table{
-	border-collapse: collapse;
-}
-.width25{
+.width25 {
 	width: 25%;
 }
-.width50{
+.width50 {
 	width: 50%;
 }
-.color-gray{
-	color: #808080;
-}
-footer{
+
+/* Footer */
+
+footer {
 	padding-top: 10px;
 }
-.footer-item{
+.footer-item {
 	width: 208px;
 	height: 160px;
 	color: white;
@@ -69,9 +83,9 @@ footer{
 	background-size: cover;
 	margin-top: 10px;
 }
-#monitor{
+#monitor {
 	background-image: url(../img/monitor.jpg);
 }
-#graph{
+#graph {
 	background-image: url(../img/graph.jpg);
 }
