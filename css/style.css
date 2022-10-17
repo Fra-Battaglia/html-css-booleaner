@@ -10,7 +10,7 @@
 	font-size: 12px;
 }
 .space{
-	margin: 10px 0;
+	margin: 20px 0;
 }
 header {
 	height: 150px;
@@ -38,4 +38,7 @@ main{
 }
 .yellow-highlight{
 	background-color: yellow;
+}
+.list-block ul{
+	padding-left: 10px;
 }
