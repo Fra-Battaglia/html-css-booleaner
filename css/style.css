@@ -18,10 +18,10 @@ header img {
 	height: 80px;
 	position: absolute;
 	bottom: 20px;
-	left: 10px;
+	left: 6px;
 }
 main{
-	margin: 10px;
+	margin: 6px;
 }
 .headline {
 	margin: 10px 0;
@@ -32,4 +32,7 @@ main{
 .article-info a {
 	color: #20A9E5;
 	text-decoration: none;
+}
+.photos ol li{
+	list-style: none;
 }
